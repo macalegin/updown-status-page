@@ -42,7 +42,7 @@
                   <h6 class="card-subtitle mb-2 text-muted">
                     <a
                       class="nolink"
-                      :href="'https://updown.io/' + thisCheck.token"
+                      :href={{ getUrl() }}
                       target="_blank"
                     >Last check: {{ toHumanDate(thisCheck.last_check_at) }}</a>
                   </h6>
@@ -61,7 +61,7 @@
                 <div class="col-md-1">
                   <a
                     class="morelink"
-                    :href="'https://updown.io/' + thisCheck.token"
+                    :href={{ getUrl() }}
                     target="_blank"
                   >Details →</a>
                 </div>
@@ -122,6 +122,17 @@ export default {
       const date = new Date(stringDate);
       return ago(date);
     }
+    /**
+     * get the url to the status page and use the cname url if available.
+     */
+     getUrl() {
+      alias = thisCheck.alias
+      if (this.$config.cname_url != '' && alias != '') {
+        return this.$config.cname_url.replace("<alias>", alias);
+      } else {
+        return 'https://updown.io/' + thisCheck.token;
+      }
+     }
   }
 }
 </script>

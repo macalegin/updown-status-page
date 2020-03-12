@@ -3,5 +3,6 @@
 	"twitter": "tangibletec",
 	"website_name": "TangibleTec",
 	"website_url": "https://www.tangibletec.com",
-	"logo_url": "https://www.tangibletec.com/img/logo.png"
+	"logo_url": "https://www.tangibletec.com/img/logo.png",
+	"cname_url": "https://status.<alias>.tangibletec.com"
 }

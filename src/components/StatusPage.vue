@@ -88,6 +88,7 @@ export default {
     }
   },
   mounted () {
+    document.title = this.$config.website_name + ' - Status Page';
     // fetch all checks
     this.fetchChecks();
   },

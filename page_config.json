@@ -1,8 +1,8 @@
 {
-	"updown_read_key": "ro-ehc4eNukfc2cLGWzoDRd",
-	"twitter": "tangibletec",
-	"website_name": "TangibleTec",
-	"website_url": "https://www.tangibletec.com",
-	"logo_url": "https://www.tangibletec.com/img/logo.png",
-	"cname_url": "https://status.<alias>.tangibletec.com"
+	"updown_read_key": "ro-nBf5vu2RJn5i8dSrdTiq",
+	"twitter": "RubenFixit",
+	"website_name": "RubenFixit",
+	"website_url": "https://rubenfixit.com",
+	"logo_url": "/static/img/logo.png",
+	"cname_url": "https://status.<alias>.rubenfixit.com"
 }

@@ -1,8 +1,8 @@
 {
-	"updown_read_key": "ro-ehc4eNukfc2cLGWzoDRd",
-	"twitter": "tangibletec",
-	"website_name": "TangibleTec",
-	"website_url": "https://www.tangibletec.com",
+	"updown_read_key": "ro-ws6jMViPBmuei8GWuWKk",
+	"twitter": "Macalegin",
+	"website_name": "Macalegin Electronics",
+	"website_url": "https://www.macaleginelectronics.com",
 	"logo_url": "/static/img/logo.png",
-	"cname_url": "https://status.<alias>.tangibletec.com"
+	"cname_url": ""
 }
